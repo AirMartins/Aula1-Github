@@ -1,0 +1,20 @@
+package curso_programacao;
+
+public class testes {
+
+	public static void main(String[] args) {
+		double comprimento = 10;
+		double largura = 30;
+		double valorMetro = 200;
+		double tamanho = comprimento*largura;
+		double valorTotalTerreno=valorMetro*tamanho;
+		System.out.printf(" tamanho do terreno é: %.2f",tamanho);
+		System.out.printf("%n Valor do metro Quadrado é: %.2f",valorMetro);
+		System.out.printf("%n O Valor total do terreno e: %.2f",valorTotalTerreno);
+		
+		
+		
+		
+
+	}
+}

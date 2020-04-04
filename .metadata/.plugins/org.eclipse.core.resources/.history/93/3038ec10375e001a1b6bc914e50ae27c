@@ -1,0 +1,15 @@
+package curso_programacao;
+
+public class testes {
+
+	public static void main(String[] args) {
+		double comprimento = 10;
+		double largura = 30;
+		double tamanho = comprimento*largura;
+		System.out.printf("tamanho do terreno é: %.2f",tamanho);
+		
+		
+		
+
+	}
+}

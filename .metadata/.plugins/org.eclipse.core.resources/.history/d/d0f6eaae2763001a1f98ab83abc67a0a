@@ -1,0 +1,57 @@
+package Principal;
+
+import java.util.Scanner;
+
+public class ex03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int escolha=0;
+         int alcool=0;
+         int gasolina=0;
+         int diesel=0;
+         boolean fim=true;
+		
+		
+		while(fim) {
+			System.out.println("1 - Álcool");
+	        System.out.println("2 - Gasolina");
+	        System.out.println("3 - Diesel");
+	        System.out.println("4 - Fim");
+	        escolha=sc.nextInt();
+	        sc.nextLine();
+		 
+	        switch(escolha) {
+	        
+		  case 1:
+        	  alcool =alcool+1 ;
+        	  break;
+          case 2:
+        	  gasolina=gasolina+1;
+        	  break;
+          case 3:
+        	  diesel =diesel+1;
+        	  break;
+          case 4:
+        	  fim=false;
+        	  break;
+         default:System.out.println("opção invalida!!! Digite novamente");
+         break;
+                   	  
+          }
+	}
+	
+        	  System.out.printf("Muito Obrigado!!%nÁlcool:%d%nGasolina:%d%nDiesel:%d",alcool,gasolina,diesel," FIM");
+         
+                           
+          
+          
+           sc.close(); 
+ }
+
+}
+
+	
+
+

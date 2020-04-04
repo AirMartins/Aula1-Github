@@ -1,0 +1,21 @@
+package exercício02;
+
+   
+   public class exe02 {
+	   import java.util.Scanner;
+	   import java.util.Locale;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		System.out.println("Digite o valor do RAIO");
+		double raio = teclado.nextDouble();
+		int y=2;
+		double area = Math.pow(raio, y);
+		System.out.printf("A Área do círculo é:  %4.f%n",area);
+		teclado.close();
+
+	}
+
+}

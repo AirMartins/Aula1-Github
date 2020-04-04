@@ -1,0 +1,24 @@
+package exercício02;
+
+import java.util.Locale;
+
+import java.util.Scanner;
+
+public class exe02 {
+	  
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		System.out.println("Digite o valor do Raio:");
+		double raio=teclado.nextDouble();
+		double y=3.14159;
+		double area = Math.pow(y,raio);
+		System.out.println(area);
+		
+		teclado.close();
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package principal;
+
+import java.util.Scanner;
+
+public class exer01 {
+	Scanner sc = new Scanner(System.in);
+	
+		// TODO Auto-generated method stub
+     
+	
+}
+
+

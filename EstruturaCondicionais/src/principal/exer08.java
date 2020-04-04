@@ -1,0 +1,41 @@
+package principal;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class exer08 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		System.out.println("Digite o Salário do Funcionário");
+		double salario = sc.nextDouble();
+		if (salario >= 0 && salario <= 2000.0) {
+			System.out.println("Isento");
+		} else if (salario > 2000.0 && salario <= 3000.0) {
+			double valorDesc = salario - 2000.0;
+			double percentual = 8.0 / 100;
+			System.out.println(percentual);
+			double desc = percentual * valorDesc;
+			System.out.printf("desconto total R$:%.2f",desc);
+		} else if (salario > 3000.0 && salario <= 4500.0) {
+			double valorDesc = salario - 3000.0;
+			double percentual = 18.0 / 100;
+			System.out.println(percentual);
+			double desc = (percentual * valorDesc) + 80.0;
+			System.out.printf("desconto total R$:%.2f",desc);
+
+			
+		}else {
+			double valorDesc = salario - 4500.0;
+			double percentual = 28.0 / 100;
+			System.out.println(percentual);
+			double desc = (percentual * valorDesc) + 350.0;
+			System.out.printf("desconto total R$:%.2f",desc);
+
+			sc.close();
+		}
+
+	}
+}

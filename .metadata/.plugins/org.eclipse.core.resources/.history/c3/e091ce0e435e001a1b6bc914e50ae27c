@@ -1,0 +1,26 @@
+package curso_programacao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class testes {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		 System.out.println("Digite o 1 valor de soma: ");
+		 float  valorSoma = teclado.nextDouble();
+		 System.out.println("Digite o 2 valor de soma ");
+		 float valorSoma2 = teclado.nextDouble();
+		 System.out.printf("A Soma dos valores %f e %f: %f", valorSoma,valorSoma2);
+		  
+		
+		
+		 float t= valorSoma+valorSoma2;
+		 System.out.println(t);
+		double valorTotalTerreno=valorMetro*tamanho;
+		
+		
+		teclado.close();
+	}
+}

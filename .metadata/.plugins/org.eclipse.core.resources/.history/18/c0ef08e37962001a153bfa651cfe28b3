@@ -1,0 +1,25 @@
+package Principal;
+
+import java.util.Scanner;
+
+public class exer01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		             
+					Scanner sc = new Scanner(System.in);
+
+			System.out.println("Digite sua Senha");
+			int senha= sc.nextInt();
+            	    
+			    while (senha!=2020){
+			         System.out.println("Senha invalida !, Tente novamente");
+			         senha=sc.nextInt();
+			     }
+			        
+			     
+			}
+
+	}
+
+

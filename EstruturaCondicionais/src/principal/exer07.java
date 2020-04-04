@@ -1,0 +1,41 @@
+package principal;
+
+import java.util.Scanner;
+
+public class exer07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+        System.out.println("Digite o valor de y, de -5 a 5 ");
+        double y = sc.nextDouble();
+        
+        System.out.println("Digite o valor de x, de -5 a 5");
+        double x = sc.nextDouble();
+        
+        if(x>0 && y>0) {
+        	System.out.println("Valor Corresponde a Q1");
+        }
+        else if (x<0 && y<0) {
+        	System.out.println("Valor Corresponde a Q3");
+        }
+        else if (x<0 && y>0) {
+        	System.out.println("valor Corresponde a Q4");
+        }
+        else if (x>0 && y<0) {
+        	System.out.println("valor Corresponde a Q2");
+        }
+        else if (x==0 && y==0) {
+        	System.out.println("Valor Corresponde a Origem");
+        }
+        
+        
+        
+        
+        sc.close();
+        
+	}
+	 
+
+}

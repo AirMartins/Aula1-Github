@@ -1,0 +1,20 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class testes {
+
+	public static void main(String[] args) {
+		Scanner teclado= new Scanner (System.in);
+		String nome;
+		System.out.println("digite seu nome");
+		 nome = teclado.next();
+		System.out.println("Nome da pessoa é: "nome);
+		teclado.close();
+		
+		
+		
+
+	}
+
+}

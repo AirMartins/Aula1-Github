@@ -1,0 +1,47 @@
+package principal;
+
+import java.util.Scanner;
+
+public class exr05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Digite o Nome Produto : ");
+		String a= sc.nextLine(); 
+		System.out.println("Digite o Código do Produto "+a+": ");
+		int codA = sc.nextInt();
+		System.out.println("Digite a Quantidade do Produto "+a+": ");
+		 int quant=sc.nextInt();
+		
+		if (quant<=0 || quant>5) {
+			System.out.println("Código do produto Inválido");
+					
+		}
+		
+		else if(quant==1) {
+			double total=quant*4.0;
+			System.out.printf("Codigo %d%n Quantidade %d%n Valor%.2f",codA,quant,total);
+		}
+		else if(quant==2) {
+			double total=quant*4.5;
+			System.out.printf("Codigo %d%n Quantidade %d%n Valor%.2f",codA,quant,total);
+		}
+		else if(quant==3) {
+			double total=quant*5.0;
+			System.out.printf("Codigo %d%n Quantidade %d%n Valor%.2f",codA,quant,total);
+		}
+		else if(quant==4) {
+			double total=quant*2.0;
+			System.out.printf("Codigo %d%n Quantidade %d%n Valor%.2f",codA,quant,total);
+		}
+		else if(quant==5) {
+			double total=quant*1.5;
+			System.out.printf("Codigo %d%n Quantidade %d%n Valor%.2f",codA,quant,total);
+		}
+		
+		
+		sc.close();
+	}
+    
+}

@@ -1,0 +1,35 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class testes {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		double comprimento;
+		System.out.println("Digite o Comprimento do Terreno: ");
+		 comprimento = teclado.nextDouble();
+		System.out.print(comprimento);
+		
+		double largura = 30;
+		System.out.println("Digite o Largura do Terreno: ");
+		 largura = teclado.nextDouble();
+		System.out.print(largura);
+		
+		double valorMetro = 200;
+		System.out.println("Digite o Valor do metro Quadrado do Terreno: /n ");
+		 valorMetro = teclado.nextDouble();
+		System.out.print(valorMetro);
+		/*
+		double tamanho = comprimento*largura;
+		double valorTotalTerreno=valorMetro*tamanho;
+		System.out.printf(" tamanho do terreno é: %.2f",tamanho);
+		System.out.printf("%n Valor do metro Quadrado é: %.2f",valorMetro);
+		System.out.printf("%n O Valor total do terreno é: %.2f",valorTotalTerreno);*/
+		
+		
+		
+		
+
+	}
+}

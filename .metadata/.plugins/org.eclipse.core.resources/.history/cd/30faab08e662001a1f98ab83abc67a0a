@@ -1,0 +1,45 @@
+package Principal;
+
+import java.util.Scanner;
+
+public class ex03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1 - ¡lcool");
+        System.out.println("2 - Gasolina");
+        System.out.println("3 - Diesel");
+        System.out.println("4 - Fim");
+          int escolha=sc.nextInt();
+          while (escolha<1 || escolha>4){
+          System.out.println("Escolha inv·lida!!! Digite novamente");
+          escolha = sc.nextInt();
+     }
+          int alcool=0;
+          int gasolina=0;
+          int diesel=0;
+          switch(escolha) {
+          case 1:
+        	  alcool +=1 ;
+        	  break;
+          case 2:
+        	  gasolina +=1;
+        	  break;
+          case 3:
+        	  diesel +=1;
+        	  break;
+          }
+        	  System.out.printf("Muito Obrigado!!%n¡lcool:%d%nGasolina:%d%nDiesel:%d",alcool,gasolina,diesel);
+         
+                           
+          
+          
+            
+ }
+
+}
+
+	
+
+

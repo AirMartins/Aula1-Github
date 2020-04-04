@@ -1,0 +1,18 @@
+package curso_programacao;
+
+
+
+public class exer04 {
+	Scanner teclado = new Scanner(System.in);
+ Locale.setDfault(Locale.Us);
+
+double horasTrab, valorHora, salario;
+System.out.println(“Digite o número do Funcionário “);
+int numero = teclado.nextInt();
+System.out.println(“Digite Total de Horas trabalhadas”);
+int hTrab = teclado.nextInt();
+double salario = valorHora*hTrab;
+System.out.println(“Digite o Valor Hora”);
+double valorHora=teclado.nextDouble();
+System.out.println(“Número: %.2d%n Salário:  %.2f%n “,numero,salario);
+teclado.close();

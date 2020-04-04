@@ -1,0 +1,29 @@
+//estrutura repetitiva For: 02
+package Principal;
+
+import java.util.Scanner;
+
+public class exer02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("digite um numero");
+		int num = sc.nextInt();
+
+		for (int i == num; i != num; i++) {
+			System.out.println("digite um numero");
+			
+			if (num<=10 && num >=20 ) {
+				System.out.println(num+"IN");
+				
+			}
+			else if(num>10 && num>20 ){
+				System.out.println(num+"out");
+		}
+
+		sc.close();
+	}
+	}
+
+}
